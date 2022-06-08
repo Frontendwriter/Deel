@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E5F2FF;
+    background-image: url(/moji-svg.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: 963px;
+}
+
+.card {
+    background-color: #FBFFFE;
+    
+    border-radius: 10px;
+    padding-inline: 48px;
+    padding-block: 41px;
+}
+
+h1 {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 42px;
+    color: #1E2329;
+    margin-bottom: 15px;
+}
+
+span {
+    color: #007FFF;
+}
+
+h3 {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 2px;
+}
+
+input {
+    padding-block: 19px;
+    padding-left: 32px;
+    padding-right: 281px;
+    background-color: #FFFFFF;
+    opacity: 0.2;
+    border: 1px solid #707A8A;
+    border-radius: 4px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #707A8A;
+    opacity: 0.6;
+    margin-bottom: 15px;
+}
+
+.password {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.password input {
+    margin-bottom: 0;
+}
+
+.save {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #707A8A;
+}
+
+.foot a {
+    display: flex;
+    gap: 18px;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.sign {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sign button {
+    background: #007FFF;
+    border-radius: 4px;
+    align-items: center;
+    padding: 12px 24px;
+    border: none;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FBFFFE;
+    display: flex;
+    gap: 12px;
+}
+
+.sign p {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #707A8A;
+}
+
+a {
+    color: #007FFF;
+    text-decoration: none;
+}
+
+.password a {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.ws {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 91px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 562px;
+}
